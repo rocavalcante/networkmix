@@ -12,7 +12,7 @@
 #     Configuracao kerberos
 #   modificacao em /etc/krb5.conf
 #***********************************#
-
+# MODIFICAR tamanho de tela
 getNomeMaquina()
 {
 	NMaquina=$(zenity --title="POC - NOME DA ESTACAO" --text "Insira o nome da estação" --entry )
