@@ -8,10 +8,6 @@
 # Data 25/09/2017
 #**********************************************#
 
-#***********************************#
-#     Configuracao kerberos
-#   modificacao em /etc/krb5.conf
-#***********************************#
 # MODIFICAR tamanho de tela
 getNomeMaquina()
 {
@@ -87,12 +83,12 @@ if [ $var == 0 ];
 	getIPAD
 	getDominio
 	setDominio
-	setConf
+#	setConf
 
 
 elif [ $var == 1 ];
   then
-																   		zenity --warning --title="POC:DEBIAN-PoliLinux" --text="Saindo do assistente"
+zenity --warning --title="POC:DEBIAN-PoliLinux" --text="Saindo do assistente"
 fi
 	echo " "
 
