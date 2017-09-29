@@ -2,16 +2,9 @@
 
 #**********************************************#
 # Script para configuracao de rede assistida
-# Cliente: Prefeitura de Guarapuava
-# Desenvolvido: Polilinux
 # Versao 0.1
 # Data 25/09/2017
 #**********************************************#
-
-#***********************************#
-#     Configuracao kerberos
-#   modificacao em /etc/krb5.conf
-#***********************************#
 
 getNomeMaquina()
 {
