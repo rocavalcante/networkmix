@@ -5,6 +5,7 @@
 # Versao 0.1
 # Data 25/09/2017
 #**********************************************#
+ver=$(cat version)
 
 getNomeMaquina()
 {
