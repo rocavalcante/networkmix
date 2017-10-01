@@ -2,7 +2,7 @@
 
 #**********************************************#
 # Script para configuracao de rede assistida
-# Versao 0.1
+# Versao 0.2
 # Data 25/09/2017
 #**********************************************#
 ver=$(cat version)
