@@ -72,7 +72,7 @@ bkpHosts()
 #
 #*******************************************#
 
-zenity --question --text "Deseja iniciar a configuração de rede?" --width="300";
+zenity --question --text "Deseja iniciar a configuração de rede?" --ok-label="SIM" --cancel-label="NÃO" --width="300";
 var=$?
 if [ $var == 0 ];
   then
